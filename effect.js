@@ -1,0 +1,3 @@
+var divs = document.querySelectorAll('body,input,textarea,code,pre,li,strong,iframe,div,p,td,th,em,a,button,html,article,header,span,blockquote,quote,section,h1,h2,h3,h4,h5,button'); for(var i=0;i<divs.length; i++) { var d = divs[i]; d.style.backgroundImage = "url('http://www.wimdenherder.com/img/secret-background2.png')"; d.style.font = "normal small"; d.style.color = "#22FF22";  d.style.fontSize = "12px"; } 
+var imgs = document.querySelectorAll("img"); for(var i=0;i<divs.length; i++) { var img = imgs[i]; img.src='http://www.wimdenherder.com/img/secret-background2.png'; }
+var vids = document.querySelectorAll("video"); for(var i=0;i<vids.length; i++) { var vid = vids[i]; console.log(vid.src); } // hier nog video weghalen of vervangen
