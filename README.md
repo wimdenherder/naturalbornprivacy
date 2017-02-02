@@ -5,6 +5,11 @@ This is a Chrome Extension that hides information and let the screen only be see
 Greetings,
 Wim den Herder
 
+# Buy the Red Glasses
+
+The glasses are called "Funbril Johnn Lennon Rood" (Dutch for: Funny Glasses John Lennon Red)
+https://www.hippiekleding.nl/funbril-john-lennon-rood.html
+
 # Load the extension
 Source: https://developer.chrome.com/extensions/getstarted#unpacked
 
