@@ -26,3 +26,12 @@ Extensions that you download from the Chrome Web Store are packaged up as .crx f
 Alternatively, you can drag and drop the directory where your extension files live onto chrome://extensions in your browser to load it.
 
 If the extension is valid, it'll be loaded up and active right away! If it's invalid, an error message will be displayed at the top of the page. Correct the error, and try again.
+
+# Suggestions for improvement (open source)
+
+- Make an ON/OFF button, that stays on for all pages you visit. For this we will need to work with the Storage API (https://developer.chrome.com/extensions/storage)
+- Detect dynamic page changes and restyle them immediately. For example: when you scroll down in Facebook.
+- Make it able to choose another color of your glasses:
+Red glasses: background red-white dots, text-color green
+Green glasses: background green-white dots, text-color red
+Color X glasses: background X-white dots, text-color opposite-of-X
