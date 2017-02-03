@@ -1,13 +1,16 @@
 # Natural Born Privacy
 2 february 2016
-This is a Chrome Extension that hides information and let the screen only be seen by red glasses. 
+
+Do you want to use your laptop in public places with full privacy?
+This Chrome Extension makes it possible for you. It lets your screen only be readable with RED GLASSES on. 
+This is an open source project. At the bottom you will find suggestions for improvement. I welcome new updates. Thank you and have fun with this one! 
 
 Greetings,
 Wim den Herder
 
 # Buy the Red Glasses
 
-The glasses are called "Funbril Johnn Lennon Rood" (Dutch for: Funny Glasses John Lennon Red)
+The glasses are called "Glasses John Lennon Red" (Dutch: "Funbril Johnn Lennon Rood")
 https://www.hippiekleding.nl/funbril-john-lennon-rood.html
 
 # Load the extension
