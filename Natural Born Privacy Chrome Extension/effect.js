@@ -15,7 +15,7 @@ for(var i=0;i<divs.length; i++) {
 var imgs = document.querySelectorAll("img");
 
 
-for(var i=0;i<divs.length; i++) {
+for(var i=0;i< img.length; i++) {
     var img = imgs[i];
     img.src= bgImage;
 }
