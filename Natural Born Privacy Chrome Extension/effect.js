@@ -3,25 +3,15 @@ var bgImage = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzf
 
 var divs = document.querySelectorAll('body,input,textarea,code,pre,li,strong,iframe,div,p,td,th,em,a,button,html,article,header,span,blockquote,quote,section,h1,h2,h3,h4,h5,button');
 
-for(var i=0;i<divs.length; i++) { 
-    var d = divs[i]; 
-
+divs.forEach(d=>{
     d.style.backgroundImage = `url('${bgImage}')`;
     d.style.font = "normal small"; 
     d.style.color = "#22FF22";  
     d.style.fontSize = "12px"; 
-} 
+});
 
 var imgs = document.querySelectorAll("img");
-
-
-for(var i=0;i< img.length; i++) {
-    var img = imgs[i];
-    img.src= bgImage;
-}
+imgs.forEach(img =>img.src=bgImage);
 
 var vids = document.querySelectorAll("video");
-for(var i=0;i<vids.length; i++) {
-    var vid = vids[i]; 
-    console.log(vid.src); 
-} // hier nog video weghalen of vervangen
+vids.forEach(vid => console.log(vid.src));
