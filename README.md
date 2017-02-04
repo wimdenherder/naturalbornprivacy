@@ -1,5 +1,4 @@
 # Natural Born Privacy
-2 february 2016
 
 Do you want to use your laptop in public places with full privacy?
 This Chrome Extension makes it possible for you. It lets your screen only be readable with RED GLASSES on. 
@@ -7,6 +6,7 @@ This is an open source project. At the bottom you will find suggestions for impr
 
 Greetings,
 Wim den Herder
+2 february 2016
 
 # Buy the Red Glasses
 
