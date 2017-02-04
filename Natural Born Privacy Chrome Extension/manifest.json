@@ -1,10 +1,13 @@
 {
-  "name": "Private Lennon",
+  "name": "Natural Born Privacy",
   "description": "Make the current page unreadable unless you read it through red glasses",
-  "version": "1.0",
+  "version": "1.0.0",
   "permissions": [
     "activeTab",
     "storage"
+  ],
+  "web_accessible_resources": [
+    "images/*.png"
   ],
   "background": {
     "scripts": ["background.js"],
@@ -12,7 +15,7 @@
   },
   "browser_action": {
     "default_title": "Natural Born Privacy",
-    "default_icon": "icon.png"
+    "default_icon": "images/icon.png"
   },
   "manifest_version": 2
 }

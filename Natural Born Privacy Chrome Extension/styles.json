@@ -1,0 +1,22 @@
+[
+    {
+        title:'pink',
+        iconImage:'pink.png',
+        source:'pink.css'
+    },
+    {
+        title:'pink inverted',
+        iconImage:'pinkInverted.png',
+        source:'pink.css'
+    },
+    {
+        title:'green',
+        iconImage:'green.png',
+        source:'green.css'
+    },
+    {
+        title:'green inverted',
+        iconImage:'greenInverted.png',
+        source:'green.css'
+    },
+]
