@@ -3,7 +3,8 @@
   "description": "Make the current page unreadable unless you read it through red glasses",
   "version": "1.0",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "background": {
     "scripts": ["background.js"],
