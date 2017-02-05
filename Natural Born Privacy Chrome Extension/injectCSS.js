@@ -1,12 +1,13 @@
-//gets CSS source from config
-//injects this into current page
-
 console.log('injectCSS.js loaded');
-var cssId = 'currentStyle'; 
-var theme = "pink";
-var stylesheet = chrome.extension.getURL(`styles/${theme}.css`);
 
-console.log(stylesheet);
+var cssId = 'naturalBornPrivacy'; 
+var theme = {
+        title:'Pink glasses',
+        iconImage:'pink.png',
+        source:'pink.css'
+    }
+
+
 
 if (!document.getElementById(cssId))
 {
@@ -15,10 +16,13 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = stylesheet
+    link.href = chrome.extension.getURL(`styles/${theme.source}`);
     link.media = 'all';
+
+    console.log(link);
+
     head.appendChild(link);
-}else if(theme === "remove"){
+}else if(theme.source === "remove"){
     document.getElementById(cssId).remove();
 }
 

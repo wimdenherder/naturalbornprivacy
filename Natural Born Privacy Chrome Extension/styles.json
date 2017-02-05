@@ -28,5 +28,10 @@
         title:'Blue glasses inverted',
         iconImage:'blueInverted.png',
         source:'blue.css'
+    },
+    {
+        title:'remove styles',
+        iconImage:'removeStyles.png',
+        source:'remove'
     }
 ]
