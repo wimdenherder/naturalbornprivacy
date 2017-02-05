@@ -1,37 +1,29 @@
-[
-    {
-        title:'Pink glasses',
-        iconImage:'pink.png',
-        source:'pink.css'
-    },
-    {
-        title:'Pink glasses inverted',
-        iconImage:'pinkInverted.png',
-        source:'pink.css'
-    },
-    {
-        title:'Green glasses',
-        iconImage:'green.png',
-        source:'green.css'
-    },
-    {
-        title:'Green inverted inverted',
-        iconImage:'greenInverted.png',
-        source:'green.css'
-    },
-    {
-        title:'Blue glasses',
-        iconImage:'blue.png',
-        source:'blue.css'
-    },
-    {
-        title:'Blue glasses inverted',
-        iconImage:'blueInverted.png',
-        source:'blue.css'
-    },
-    {
-        title:'remove styles',
-        iconImage:'removeStyles.png',
-        source:'remove'
-    }
-]
+ [{
+    "title": "Pink glasses",
+    "iconImage": "pink.png",
+    "source": "pink.css"
+ }, {
+    "title": "Pink glasses inverted",
+    "iconImage": "pinkInverted.png",
+    "source": "pink.css"
+ }, {
+    "title": "Green glasses",
+    "iconImage": "green.png",
+    "source": "green.css"
+ }, {
+    "title": "Green inverted inverted",
+    "iconImage": "greenInverted.png",
+    "source": "green.css"
+ }, {
+    "title": "Blue glasses",
+    "iconImage": "blue.png",
+    "source": "blue.css"
+ }, {
+    "title": "Blue glasses inverted",
+    "iconImage": "blueInverted.png",
+    "source": "blue.css"
+ }, {
+    "title": "remove styles",
+    "iconImage": "removeStyles.png",
+    "source": "remove"
+ }]
