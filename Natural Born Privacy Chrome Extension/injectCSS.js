@@ -1,3 +1,4 @@
+console.clear();
 console.log('injectCSS.js loaded');
 
 var cssId = 'naturalBornPrivacy'; 
@@ -6,8 +7,6 @@ var theme = {
         iconImage:'pink.png',
         source:'pink.css'
     }
-
-
 
 if (!document.getElementById(cssId))
 {

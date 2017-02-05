@@ -1,5 +1,5 @@
 *{
-    background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink.png');
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink.png') !important;
     color: #22FF22;
     font-size: 12px;
 }

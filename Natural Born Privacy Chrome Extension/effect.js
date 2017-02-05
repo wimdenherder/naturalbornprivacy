@@ -1,3 +1,5 @@
+// DEPRECATED DEPRECATED DEPRECATED DEPRECATED
+
 console.log('effect.js loaded');
 var bgImage = chrome.extension.getURL("images/secret-background2.png");
 
@@ -13,6 +15,5 @@ divs.forEach(d=>{
     d.style.fontSize = "12px"; 
 });
 
-//https://css-tricks.com/almanac/properties/m/mix-blend-mode/
 imgs.forEach(img => img.style.mixBlendMode = "multiply");
 vids.forEach(vid => vid.style.mixBlendMode = "multiply");
