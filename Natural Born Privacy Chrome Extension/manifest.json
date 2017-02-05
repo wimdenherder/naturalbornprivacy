@@ -7,7 +7,8 @@
     "storage"
   ],
   "web_accessible_resources": [
-    "images/*.png"
+    "images/*.png",
+    "styles/*.css"
   ],
   "background": {
     "scripts": ["background.js"],

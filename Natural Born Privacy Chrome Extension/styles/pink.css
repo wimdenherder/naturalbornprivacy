@@ -1,6 +1,5 @@
 *{
-    // background-image: url('chrome-extension://__MSG_@@extension_id__/images/secret-background2.png');
-    background-color: #000; //test
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink.png');
     color: #22FF22;
     font-size: 12px;
 }

@@ -1,22 +1,32 @@
 [
     {
-        title:'pink',
+        title:'Pink glasses',
         iconImage:'pink.png',
         source:'pink.css'
     },
     {
-        title:'pink inverted',
+        title:'Pink glasses inverted',
         iconImage:'pinkInverted.png',
         source:'pink.css'
     },
     {
-        title:'green',
+        title:'Green glasses',
         iconImage:'green.png',
         source:'green.css'
     },
     {
-        title:'green inverted',
+        title:'Green inverted inverted',
         iconImage:'greenInverted.png',
         source:'green.css'
     },
+    {
+        title:'Blue glasses',
+        iconImage:'blue.png',
+        source:'blue.css'
+    },
+    {
+        title:'Blue glasses inverted',
+        iconImage:'blueInverted.png',
+        source:'blue.css'
+    }
 ]

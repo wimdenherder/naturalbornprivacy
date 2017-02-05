@@ -5,7 +5,6 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
   console.log('Put on your red glasses to read ' + tab.url + '!');
 
-  chrome.tabs.executeScript({
-    file: 'effect.js'
-  });
+  chrome.tabs.executeScript({file: 'injectCSS.js'}); 
+
 });
