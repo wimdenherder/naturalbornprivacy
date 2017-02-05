@@ -7,7 +7,7 @@ var index = 0; // first theme in styles.json
 
 //TODO set index from a popup menu
 
-//fetched json file and select index 0 to inject change index for different themes
+//fetched json file and select first index from style.json to inject
 fetch(themesUrl)
     .then(x=> x.json())
     .then(x=> inject(x[index]));
