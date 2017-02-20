@@ -1,0 +1,14 @@
+// TODO CUSTOM STYLING
+*{
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/secret-background2.png');
+    color: #22FF22;
+    font-size: 12px;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+video{
+    mix-blend-mode: multiply;
+}
